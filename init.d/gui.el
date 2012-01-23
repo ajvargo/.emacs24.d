@@ -11,8 +11,6 @@
 (setq display-time-day-and-date t)
 (display-time)
 
-(setq ns-command-modifier (quote meta)) ; Command is meta in OS X
-
 (global-hl-line-mode t) ; Highlight the current line
 (blink-cursor-mode t) ; durr
 (setq default-cursor-type 'box) ; double dur

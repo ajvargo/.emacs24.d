@@ -1,4 +1,5 @@
 ;;; ZZ to load this after everything else so nothing gets trompted.
+(setq ns-command-modifier (quote meta)) ; Command is meta in OS X
 (setq mac-option-modifier 'super) ; option is 's' when looking at keybindings
 
 ;; shorten some function calls
