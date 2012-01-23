@@ -6,7 +6,7 @@
 (setq-default indent-tabs-mode nil) ; tab are of the devil
 (setq default-tab-width 2) ; how many spaces should my tab be?
 (normal-erase-is-backspace-mode 1) ; delete works as it should
-
+(setq inhibit-splash-screen t) ; no more splash when loading
 ; Display time and date on the modeline
 (setq display-time-day-and-date t)
 (display-time)
