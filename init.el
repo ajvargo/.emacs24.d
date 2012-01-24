@@ -19,9 +19,16 @@
       (or load-file-name buffer-file-name))
 (setq ajv-emacs-config-dir
       (file-name-directory ajv-emacs-init-file))
-(setq user-emacs-directory ajv-emacs-config-dir)
+(setq user-emacs-directory 
+      ajv-emacs-config-dir)
 (setq ajv-init-dir
       (expand-file-name "init.d" ajv-emacs-config-dir))
+(setq ajv-emacs-temp-dir
+      "~/.emacs_temp/")
+(setq ajv-emacs-backup-dir
+      (concat ajv-emacs-temp-dir "backup"))
+(setq ajv-emacs-autosave-dir
+      (concat ajv-emacs-temp-dir "autosave"))
 
 ;; Load all elisp files in ./init.d
 (if (file-exists-p ajv-init-dir)
