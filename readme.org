@@ -1,0 +1,9 @@
+* Emacs 24 Config
+** General Notes
+   Packages come from [[https://github.com/dimitri/el-get][el-get]], which is built on the ELPA manager included in Emacs 24.
+   Package libraries in use: [[http://tromey.com/elpa/"][ELPA]], [[http://elpa.gnu.org/packages/][gnu]], [[http://marmalade-repo.org/packages/][marmalade]], and [[http://tromey.com/elpa/][tromey]].
+** Initial Setup
+   1. > cd emacs.d
+      > git submodule init
+      > git submodule update
+   2. Open emacs, maybe several times to get all the packages loaded and installed.
