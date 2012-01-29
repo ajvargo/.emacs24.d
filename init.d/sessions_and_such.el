@@ -43,5 +43,6 @@
                 register-alist)))
 
 (require 'saveplace) ; save where I am in the files
+(setq save-place t)
 (setq save-place-file ajv-emacs-saveplace-file) ;; keep my ~/ clean
 (setq-default save-place t)                   ;; activate it for all buffers

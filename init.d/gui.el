@@ -20,6 +20,8 @@
 (setq frame-title-format (list " %b %+%+  %f")) ; buffer title
 (setq scroll-step 1) ; the way I scroll
 
+(add-hook 'before-save-hook 'untabify-buffer)
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 ;; set the font
 (if (eq system-type 'darwin)
     (set-default-font "-apple-Inconsolata-medium-normal-normal-*-14-*-*-*-m-0-iso10646-1"))

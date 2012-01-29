@@ -67,3 +67,17 @@
 (global-set-key (kbd "C-h a") 'apropos)
 
 
+;; Org related
+(global-set-key (kbd "C-c C-r") 'remember)
+(global-set-key (kbd "C-c R") 'wicked/remember-review-file)
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(define-key global-map "\C-cc" 'org-capture)
+(define-key global-map "\C-cr" 'org-capture)
+(global-set-key "\C-cb" 'org-iswitchb)
+
+;; The wonder and magic that is git
+(global-set-key (kbd "M-g m") 'magit-status)
+
+
+(global-set-key (kbd "C-c S-e")      'erc-start-or-switch) ;; ERC

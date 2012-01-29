@@ -44,9 +44,7 @@
       org-link-abbrev-alist '(("google" . "http://www.google.com/search?q=")
                               ("gmap". "http://maps.google.com/maps?q=%s")))
 
-(define-key global-map "\C-cc" 'org-capture)
-(define-key global-map "\C-cr" 'org-capture)
-(global-set-key "\C-cb" 'org-iswitchb)
+(set-register ?h '(file . "~/org/home.org"))
 ;;org-tag-alist
   ;;  Which tags should be available? Note that tags besides the configured ones can be used, but for the important ones you can define keys for fast access here.
 ;;org-tags-column
