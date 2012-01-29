@@ -1,0 +1,5 @@
+#name : bundle exec
+#key: be
+# expand-env: ((yas/indent-line nil))
+# --
+bundle exec $0

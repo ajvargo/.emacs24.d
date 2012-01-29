@@ -1,0 +1,5 @@
+#name : beginning_time = ...
+#key: bt
+# expand-env: ((yas/indent-line nil))
+# --
+$>beginning_time$1 = Time.now$0

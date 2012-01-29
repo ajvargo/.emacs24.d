@@ -1,0 +1,6 @@
+#name: console.timerEnd(...)
+#key: te
+# expand-env: ((yas/indent-line nil))
+# --
+$>console.timerEnd('${1:here}')
+$0

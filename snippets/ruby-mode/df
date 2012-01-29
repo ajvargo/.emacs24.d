@@ -1,0 +1,8 @@
+#name : def ... end
+#group : definitions
+#key: def
+# expand-env: ((yas/indent-line nil))
+# --
+$>def ${1:method}(${2:args})
+$>  `yas/selected-text`$0
+$>end

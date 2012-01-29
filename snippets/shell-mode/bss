@@ -1,0 +1,5 @@
+#name: brake spec SPEC
+#key: bss
+# expand-env: ((yas/indent-line nil))
+# --
+brake spec SPEC=$0

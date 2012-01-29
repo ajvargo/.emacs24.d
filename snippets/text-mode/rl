@@ -1,0 +1,7 @@
+#name : Rails.logger.debug...
+# expand-env: ((yas/indent-line nil))
+#key: rl
+# --
+$>Rails.logger.debug("~" * 50)
+$>Rails.logger.debug( $0 )
+$>Rails.logger.debug("~" * 50)

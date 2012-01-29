@@ -1,0 +1,7 @@
+#name : column helper
+#key: co
+# expand-env: ((yas/indent-line nil))
+# --
+$><%= columns ${1:2} do %>
+$>$0
+$><% end %>

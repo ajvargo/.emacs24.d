@@ -1,0 +1,7 @@
+#name : puts block
+#key: pp
+# expand-env: ((yas/indent-line nil))
+# --
+$>p "~" * 50
+$>p  $0
+$>p "~" * 50

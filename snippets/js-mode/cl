@@ -1,0 +1,5 @@
+#name : console.log
+#key: cl
+# expand-env: ((yas/indent-line nil))
+# --
+$>console.log(${1:'${2:here}'})

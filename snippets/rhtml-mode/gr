@@ -1,0 +1,7 @@
+#name: group helper
+#key: gr
+# expand-env: ((yas/indent-line nil))
+# --
+$><%= group do %>
+$>$0
+$><% end %>

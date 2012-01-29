@@ -1,0 +1,6 @@
+#name: console.timer(...)
+#key: ts
+# expand-env: ((yas/indent-line nil))
+# --
+$>console.timer('${1:here}')
+$0

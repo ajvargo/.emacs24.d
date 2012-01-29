@@ -1,0 +1,12 @@
+#name: timing wrapper
+#key: tm
+#expand-env: ((yas/indent-line nil))
+#binding: "C-c C-y t"
+# --
+$>beginning_time${2:} = Time.now
+$>  `yas/selected-text`
+$>end_time$2 = Time.now
+$>p "${3:~}" * 50
+$>p  "[$1] #{(end_time$2 - beginning_time$2)*1000} milliseconds"
+$>p "$3" * 50
+$>$0

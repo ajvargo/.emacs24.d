@@ -1,0 +1,7 @@
+#name: section helper
+#key: se
+# expand-env: ((yas/indent-line nil))
+# --
+$><%= section do %>
+$>$0
+$><% end %>
