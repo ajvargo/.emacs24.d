@@ -31,6 +31,8 @@
       (concat ajv-emacs-temp-dir "autosave"))
 (setq ajv-emacs-modules-dir
       (expand-file-name "modules" ajv-emacs-config-dir))
+(setq ajv-emacs-saveplace-file
+      (concat  ajv-emacs-config-dir "saveplace"))
 (setq ajv-packages-dir
       (expand-file-name "el-get-packages" ajv-emacs-config-dir))
 ;; Load all elisp files in ./init.d

@@ -15,7 +15,8 @@
 ;; list all packages you want installed  
 (setq my-el-get-packages  
       (append  
-       '(color-theme-ir-black
+       '(autopair
+	 color-theme-ir-black
 	 color-theme-solarized
 	 color-theme-railscasts
 	 drag-stuff 
