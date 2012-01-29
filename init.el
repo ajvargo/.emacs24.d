@@ -23,6 +23,19 @@
     (dolist (file (directory-files ajv-init-dir t "\\.el$"))
       (load file)))
 
+;; load  based on my machine & user name
+;; vargo.el or vargo/*.el...
+(setq system-specific-config (concat ajv-emacs-config-dir system-name ".el")
+      user-specific-config (concat ajv-emacs-config-dir user-login-name ".el")
+      user-specific-dir (concat ajv-emacs-config-dir user-login-name))
+(add-to-list 'load-path user-specific-dir)
+
+(if (file-exists-p system-specific-config) (load system-specific-config))
+(if (file-exists-p user-specific-config) (load user-specific-config))
+(if (file-exists-p user-specific-dir)
+   (mapc #'load (directory-files user-specific-dir nil ".*el$")))
+
+
 ;; puts customization in their own file
 (setq custom-file (concat ajv-emacs-config-dir "custom.el"))
 (load custom-file 'noerror) ;; don't choke if its empty
