@@ -1,4 +1,5 @@
 (setq magit-git-executable "/usr/local/bin/git")
+(setq epg-gpg-program "/usr/local/bin/gpg")
 
 ;; Add stuff I need to my shell load path
 (when (equal system-type 'darwin)

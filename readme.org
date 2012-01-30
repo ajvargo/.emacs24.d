@@ -20,3 +20,17 @@
 *** Aspell
     If you want to use the spell check (ispell), you'll need you some aspell. Brew again:
     > brew install aspell --lang=EN
+
+*** Passwords
+    You can have a file encrypted that you store passwords and the like in.
+    The setup I have asked for your password when emacs loads. Doesn't have to be that way.
+    1. > brew isntall gnupg
+    2. Any file with the extension .gpg will be encrypted. It'll give you options to encrypt.
+    3. I use key-value variables:
+       (setq blog-login "foo"
+             blog-passw "bar)
+       Elsewhere:
+       (setq blogger-server-username blog-login) ...
+**** Some links to help get it setup
+     - [[http://emacs-fu.blogspot.com/2011/02/keeping-your-secrets-secret.html][emacs-fu how-to]]
+     - [[http://quantumlab.net/pine_privacy_guard/howto_setup_gpg.html][GNU PG instructions]]
