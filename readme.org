@@ -7,3 +7,16 @@
       > git submodule init
       > git submodule update
    2. Open emacs, maybe several times to get all the packages loaded and installed.
+
+** Outside dependencies
+*** TAGS
+    I use ctags to generate a TAGS file for Ruby. This allows following a method name to its definitation
+    1. get ctags that supports Ruby.  The one from homebrew does.
+       > brew install ctags
+    2. A couple bash aliases to help
+       alias ctags="`brew --prefix`/bin/ctags"
+       alias rtags="ctags -a -e -f TAGS --tag-relative -R . --exclude=-.git --exclude=log *"
+    3. M-. your bad self
+*** Aspell
+    If you want to use the spell check (ispell), you'll need you some aspell. Brew again:
+    > brew install aspell --lang=EN

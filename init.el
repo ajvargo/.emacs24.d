@@ -35,7 +35,6 @@
 (if (file-exists-p user-specific-dir)
    (mapc #'load (directory-files user-specific-dir nil ".*el$")))
 
-
 ;; puts customization in their own file
 (setq custom-file (concat ajv-emacs-config-dir "custom.el"))
 (load custom-file 'noerror) ;; don't choke if its empty
