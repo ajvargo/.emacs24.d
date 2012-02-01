@@ -1,0 +1,5 @@
+(setq weblogger-config-name "ajvargo.com")
+(setq weblogger-server-url "http://ajvargo.com/xmlrpc.php")
+(setq weblogger-server-username weblogger-login)
+(setq weblogger-server-password weblogger-passw)
+(setq weblogger-weblog-id "1")

@@ -17,7 +17,7 @@
        ajv-emacs-saveplace-file (concat  ajv-emacs-config-dir "saveplace")
        ajv-emacs-bookmarks-file (concat  ajv-emacs-config-dir "bookmarks")
        ajv-packages-dir         (expand-file-name "el-get-packages" ajv-emacs-config-dir)
-       ajv-secrets-file         (expand-file-name "secrets.el.gpg" ajv-emacs-config-dir))
+       ajv-secrets-file         (expand-file-name "secrets.el.gpg" ajv-init-dir))
 
 ;; Load all elisp files in ./init.d
 (if (file-exists-p ajv-init-dir)

@@ -34,6 +34,7 @@
          ruby-compilation
          rvm
          xml-rpc-el
+         weblogger-el
          yaml-mode
          yasnippet
          )
