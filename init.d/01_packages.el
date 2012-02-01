@@ -23,7 +23,7 @@
          color-theme-railscasts
          drag-stuff
          git-modeline
-         ;;   inf-ruby
+         inf-ruby
          js2-mode
          magit
          markdown-mode
