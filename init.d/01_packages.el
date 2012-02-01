@@ -33,6 +33,7 @@
          rspec-mode
          ruby-compilation
          rvm
+         xml-rpc-el
          yaml-mode
          yasnippet
          )

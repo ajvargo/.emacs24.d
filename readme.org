@@ -14,13 +14,15 @@
     1. get ctags that supports Ruby.  The one from homebrew does.
        > brew install ctags
     2. A couple bash aliases to help
-       alias ctags="`brew --prefix`/bin/ctags"
-       alias rtags="ctags -a -e -f TAGS --tag-relative -R . --exclude=-.git --exclude=log *"
+       - alias ctags="`brew --prefix`/bin/ctags"
+       - alias rtags="ctags -a -e -f TAGS --tag-relative -R . --exclude=-.git --exclude=log *"
     3. M-. your bad self
 *** Aspell
     If you want to use the spell check (ispell), you'll need you some aspell. Brew again:
     > brew install aspell --lang=EN
-
+*** Bazaar
+    You'll need this if you are looking to get any number of Emacs packages. It's the source control used by a number of them.
+    > brew install bzr
 *** Passwords
     You can have a file encrypted that you store passwords and the like in.
     The setup I have asked for your password when emacs loads. Doesn't have to be that way.
