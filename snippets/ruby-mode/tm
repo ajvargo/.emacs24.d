@@ -1,7 +1,7 @@
 #name: timing wrapper
 #key: tm
 #expand-env: ((yas/indent-line nil))
-#binding: "C-c C-y t"
+#keybinding: "C-c C-y t"
 # --
 $>beginning_time${2:} = Time.now
 $>  `yas/selected-text`
