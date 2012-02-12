@@ -36,3 +36,6 @@
 **** Some links to help get it setup
      - [[http://emacs-fu.blogspot.com/2011/02/keeping-your-secrets-secret.html][emacs-fu how-to]]
      - [[http://quantumlab.net/pine_privacy_guard/howto_setup_gpg.html][GNU PG instructions]]
+
+*** multimarkdown
+    If you 'brew install multimarkdown', you can generate html from a markdown file. (C-c C-c m)
