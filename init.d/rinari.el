@@ -1,5 +1,5 @@
 (defun ajv-add-rinari-keys ()
-  (local-set-key (kbd "C-c c") 'rinari-find-controller)
+;  (local-set-key (kbd "C-c c") 'rinari-find-controller)
   (local-set-key (kbd "C-c h") 'rinari-find-helper)
   (local-set-key (kbd "C-c j") 'rinari-find-javascript)
   (local-set-key (kbd "C-c r") 'rinari-find-rspec)
