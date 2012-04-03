@@ -9,7 +9,7 @@
 (setq inhibit-splash-screen t) ; no more splash when loading
 ; Display time and date on the modeline
 (setq display-time-day-and-date t)
-(display-time)
+;(display-time)
 
 (global-hl-line-mode t) ; Highlight the current line
 (blink-cursor-mode t) ; durr
