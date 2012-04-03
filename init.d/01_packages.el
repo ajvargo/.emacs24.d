@@ -5,10 +5,11 @@
                          ("tromey" . "http://tromey.com/elpa/")))
 (package-initialize)
 
+(add-to-list 'load-path (expand-file-name "confluence-el" ajv-emacs-modules-dir))
+(require 'confluence)
+
 (add-to-list 'load-path (expand-file-name "el-get" ajv-emacs-modules-dir))
-
 (setq el-get-dir ajv-packages-dir)
-
 (require 'el-get)
 
 (setq el-get-sources
