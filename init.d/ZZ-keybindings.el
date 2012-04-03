@@ -19,7 +19,7 @@
 (global-set-key (kbd "C-x C-o")    'delete-blank-lines)
 (global-set-key (kbd "C-c C-i")    'ido-insert-buffer)
 (global-set-key (kbd "C-c C-d")    'duplicate-line)
-(global-set-key (kbd "C-c C-f")    'find-file-at-point)
+(global-set-key (kbd "C-c C-f")    'ns-toggle-fullscreen)
 (global-set-key (kbd "C-c f")      'find-file-at-point)
 (global-set-key (kbd "C-c C-n")    'linum-mode)
 
