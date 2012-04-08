@@ -1,0 +1,6 @@
+#name : <% ... %>
+#key: <
+# expand-env: ((yas/indent-line nil))
+# --
+$><% $1 %>
+$>$0
