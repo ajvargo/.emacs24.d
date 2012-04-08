@@ -25,7 +25,6 @@
          drag-stuff
          git-modeline
          inf-ruby
-         js2-mode
          magit
          markdown-mode
          org-mode
