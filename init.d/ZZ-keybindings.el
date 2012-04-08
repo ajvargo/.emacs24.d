@@ -30,8 +30,10 @@
 (global-set-key [(shift return)] 'insert-empty-line)
 (global-set-key [(meta return)] 'newline-and-indent)
 
-;; ido for imenu
-(global-set-key "\C-ci" 'ido-goto-symbol)
+(global-set-key "\C-ci" 'ido-goto-symbol) ;; ido for imenu (complete on function names in active buffer)
+(global-set-key "\C-cs" 'ido-shell-buffer) ;; switch between open shells
+;; Jump to a definition in the current file. (This is awesome.)
+(global-set-key (kbd "C-x C-i") 'ido-imenu)
 
 ;; Resize windows
 (global-set-key (kbd "S-C-<left>")  'shrink-window-horizontally)
@@ -58,9 +60,6 @@
 (global-set-key (kbd "C-M-s") 'isearch-forward)
 (global-set-key (kbd "C-M-r") 'isearch-backward)
 
-;; Jump to a definition in the current file. (This is awesome.)
-(global-set-key (kbd "C-x C-i") 'ido-imenu)
-
 (windmove-default-keybindings) ;; Shift+direction
 
 ;; Help should search more than just commands
@@ -74,7 +73,7 @@
 (define-key global-map "\C-ca" 'org-agenda)
 (define-key global-map "\C-cc" 'org-capture)
 (define-key global-map "\C-cr" 'org-capture)
-(global-set-key "\C-cb" 'org-iswitchb)
+(global-set-key "\C-co" 'org-iswitchb)
 
 ;; The wonder and magic that is git
 (global-set-key (kbd "M-g m") 'magit-status)
