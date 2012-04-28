@@ -11,7 +11,7 @@
       org-log-done 'time
       org-todo-keyword-faces '(("TODO" . (:foreground "red" :weight bold))
                                ("UNREAD" . (:foreground "red" :weight bold))
-                               ("NEXT" . (:foreground "forest green" : weight bold))
+                               ("NEXT" . (:foreground "forest green" :weight bold))
                                ("STARTED" . (:foreground "blue" :weight bold))
                                ("WAITING" . (:foreground "yellow" :weight bold))
                                ("CANCELLED" . (:foreground "orange" :weight bold)))
