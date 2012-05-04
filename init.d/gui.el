@@ -12,6 +12,8 @@
 ;(display-time)
 
 (global-hl-line-mode t) ; Highlight the current line
+(set-face-background 'hl-line "#252535")
+
 (blink-cursor-mode t) ; durr
 (setq default-cursor-type 'box) ; double dur
 (column-number-mode t) ; show columns in modeline

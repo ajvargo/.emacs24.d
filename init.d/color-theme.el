@@ -13,3 +13,4 @@
 
 
 (set-cursor-color "DarkGoldenrod")
+(set-face-background 'region "#151535")
