@@ -1,0 +1,10 @@
+#name : food skeleton
+#key: food
+# expand-env: ((yas/indent-line nil))
+# --
+$>** `(today)`
+$>*** Breakfast$1
+$>*** Lunch$2
+$>*** Supper$3
+$>*** Other$4
+$0
