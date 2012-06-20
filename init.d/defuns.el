@@ -6,7 +6,7 @@
 
 (defun today ()
   "Insert string for today's date nicely formatted in American style, e.g. Sunday September 17, 2000."
-  (interactive)               
+  (interactive)
   (insert (format-time-string "%A %B %e, %Y")))
 
 (defun now ()
