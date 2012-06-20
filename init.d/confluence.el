@@ -1,1 +1,2 @@
-(setq confluence-url "http://dataxu.onconfluence.com/rpc/xmlrpc")
+;; This is set in secrets...
+;; (setq confluence-url "")
