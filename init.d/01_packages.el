@@ -5,8 +5,8 @@
                          ("tromey" . "http://tromey.com/elpa/")))
 (package-initialize)
 
-(add-to-list 'load-path (expand-file-name "confluence-el" ajv-emacs-modules-dir))
-(require 'confluence)
+(add-to-list 'load-path (expand-file-name "arduino-mode" ajv-emacs-modules-dir))
+(require 'arduino-mode)
 
 (add-to-list 'load-path (expand-file-name "el-get" ajv-emacs-modules-dir))
 (setq el-get-dir ajv-packages-dir)
@@ -20,19 +20,25 @@
       (append
        '(autopair
          color-theme-ir-black
-         color-theme-solarized
          color-theme-railscasts
+         color-theme-solarized
+         color-theme-tomorrow
+         confluence-el
          drag-stuff
+         git-blame
          git-modeline
-         inf-ruby
+;         inf-ruby
          magit
          markdown-mode
+         moz-repl
          org-mode
+         powerline
          rhtml-mode
          rinari
          rspec-mode
-         ruby-compilation
+;         ruby-compilation
          rvm
+         scss-mode
          xml-rpc-el
          weblogger-el
          yaml-mode
@@ -44,3 +50,6 @@
 ;; emms
 
 (el-get 'sync my-el-get-packages)
+
+(add-to-list 'load-path (expand-file-name "jira" ajv-emacs-modules-dir))
+(require 'jira)
