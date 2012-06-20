@@ -1,3 +1,6 @@
 [submodule "modules/el-get"]
 	path = modules/el-get
 	url = git://github.com/dimitri/el-get.git
+[submodule "modules/arduino-mode"]
+	path = modules/arduino-mode
+	url = https://github.com/bookest/arduino-mode.git
