@@ -19,7 +19,7 @@
 (global-set-key (kbd "C-x C-o")    'delete-blank-lines)
 (global-set-key (kbd "C-c C-i")    'ido-insert-buffer)
 (global-set-key (kbd "C-c C-d")    'duplicate-line)
-(global-set-key (kbd "C-c C-f")    'ns-toggle-fullscreen)
+(global-set-key (kbd "C-M-f")      'ns-toggle-fullscreen)
 (global-set-key (kbd "C-c f")      'find-file-at-point)
 (global-set-key (kbd "C-c C-n")    'linum-mode)
 
@@ -32,6 +32,9 @@
 
 (global-set-key "\C-ci" 'ido-goto-symbol) ;; ido for imenu (complete on function names in active buffer)
 (global-set-key "\C-cs" 'ido-shell-buffer) ;; switch between open shells
+(global-set-key "\C-cd" 'ido-dired-buffer) ;; switch between open direds
+(global-set-key "\C-cm" 'ido-mode-buffer) ;; switch between open direds
+
 ;; Jump to a definition in the current file. (This is awesome.)
 (global-set-key (kbd "C-x C-i") 'ido-imenu)
 
@@ -67,8 +70,7 @@
 
 
 ;; Org related
-(global-set-key (kbd "C-c C-r") 'remember)
-(global-set-key (kbd "C-c R") 'wicked/remember-review-file)
+(global-set-key (kbd "C-S-r") 'org-capture)
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (define-key global-map "\C-cc" 'org-capture)
