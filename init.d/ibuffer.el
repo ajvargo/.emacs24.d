@@ -25,7 +25,8 @@
 (add-hook 'ibuffer-mode-hook
           '(lambda ()
              (ibuffer-switch-to-saved-filter-groups "work")
-             (add-to-list 'ibuffer-never-show-predicates "TAGS")))
+             (add-to-list 'ibuffer-never-show-predicates "TAGS")
+             (add-to-list 'ibuffer-never-show-predicates ".*org_archive")))
 
 (setq ibuffer-show-empty-filter-groups nil)
 (setq ibuffer-formats '( ;; ( mark modified read-only
