@@ -1,0 +1,6 @@
+#name : should_receive
+#group : definitions
+#key: shr
+# expand-env: ((yas/indent-line nil))
+# --
+$>$1.should_receive($2)${3:.with($4)}.and_return $0

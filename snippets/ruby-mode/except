@@ -1,0 +1,6 @@
+#name : :except => [...]
+#key: except
+# expand-env: ((yas/indent-line nil))
+# --
+$>:except => [:$1]
+$>$0

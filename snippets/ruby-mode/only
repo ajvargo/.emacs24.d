@@ -1,0 +1,6 @@
+#name : :only => [...]
+#key: only
+# expand-env: ((yas/indent-line nil))
+# --
+$>:only => [:$1]
+$>$0
