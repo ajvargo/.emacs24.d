@@ -20,4 +20,14 @@
 (defun ido-shell-buffer()
   "Open shell-mode buffers in own ido list"
   (interactive)
-  (ido-for-mode "Shell:" 'shell-mode))
+  (ido-for-mode "Shell: " 'shell-mode))
+
+(defun ido-dired-buffer()
+  "Open shell-mode buffers in own ido list"
+  (interactive)
+  (ido-for-mode "Dired: " 'dired-mode))
+
+(defun ido-mode-buffer()
+  "Open same-mode buffers in own ido list"
+  (interactive)
+  (ido-for-mode (format "%s: " major-mode) major-mode))
