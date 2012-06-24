@@ -4,3 +4,6 @@
 /saveplace
 *.elc
 el-get-packages
+/.org-id-locations
+/bookmarks
+/tramp
